@@ -1,0 +1,35 @@
+.nav{
+    padding: 5px;
+    display: flex;
+    background: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.butondiv{
+    padding:10px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+.btn{
+    position: relative;
+    border:red;
+    transition: .4s ease-in;
+    z-index:1;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.btn::before,
+.btn::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+}
+.btn:hover{
+    background: black;
+    box-shadow: 0 0 5px white,0 0 25px white, 0 0 50px white,0 0 200px white;
+    color: white;
+}
