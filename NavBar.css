@@ -2,22 +2,15 @@
     padding: 5px;
     display: flex;
     background: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    justify-content: space-around;
 }
-.butondiv{
-    padding:10px;
-    padding-left: 100px;
-    padding-right: 50px;
-}
+
 .btn{
     position: relative;
     border:red;
     transition: .4s ease-in;
     z-index:1;
     padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
     border-radius: 5px;
     cursor: pointer;
     background-color: white;
